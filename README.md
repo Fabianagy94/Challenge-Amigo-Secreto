@@ -15,14 +15,14 @@ Tecnologías utilizadas
 
 # Cómo usarlo
 ## - Abre el juego en tu navegador: Challenge-Amigo-Secreto
-<img width="1347" height="597" alt="1" src="https://github.com/user-attachments/assets/01651162-7c41-49ef-8dfb-a0dd0bbd11e9" />
+<img width="1347" height="597" alt="1" src="https://github.com/user-attachments/assets/71b81e2a-2a1b-44e2-b53b-3b4ed0c02025" />
 
 ## - Ingresa los nombres de los participantes.
 
-<img width="1347" height="585" alt="2" src="https://github.com/user-attachments/assets/974ebfbe-633f-426c-b966-8cb2499a2b72" />
+<img width="1347" height="585" alt="2" src="https://github.com/user-attachments/assets/95d282e5-e40e-40b2-8fdd-e5ead5353bae" />
 
 ## - Haz clic en “Sortear amigo” para descubrir tu amigo secreto.
-<img width="1345" height="597" alt="4" src="https://github.com/user-attachments/assets/47371713-3b27-44c6-9fcf-75f9fabc91bd" />
+<img width="1345" height="597" alt="4" src="https://github.com/user-attachments/assets/e8f247bf-22e8-46ed-99b3-6c7b9393c32a" />
 
 ## - Reinicia el juego si deseas volver a jugar.
 
