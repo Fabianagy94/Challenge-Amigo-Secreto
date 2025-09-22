@@ -98,7 +98,6 @@ body {
   width: 300px;           
 }
 
-
 /* Estilos de entrada de texto */
 .input-title {
     flex: 1;
@@ -168,7 +167,7 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-    .button-reset {
+.button-reset {
   background-color: var(--color-button);
   color: rgb(10, 5, 5);
   border: 2px solid #000;
@@ -182,10 +181,95 @@ ul {
   gap: 8px;
 }
 
-
 .button-reset:hover {
   background-color: var(--color-button-hover);
 }
 
+/* Media Queries para dispositivos pequeños */
 
+/* Para pantallas menores a 600px */
+@media (max-width: 600px) {
 
+    .main-title {
+        font-size: 30px; /* Reducir tamaño del título */
+    }
+
+    .section-title {
+        font-size: 24px; /* Reducir tamaño del subtítulo */
+    }
+
+    .input-name,
+    .input-title {
+        font-size: 14px;  /* Reducir tamaño de la fuente */
+        padding: 8px;     /* Reducir padding */
+    }
+
+    .input-wrapper {
+        width: 90%;        /* Ajustar el ancho del input */
+        max-width: 100%;   /* Eliminar límite de 600px */
+    }
+
+    .button-container {
+        width: 100%;       /* Ajustar ancho de los botones */
+    }
+
+    button {
+        width: 100%;       /* Botones más anchos */
+        padding: 12px;     /* Reducir padding de los botones */
+    }
+
+    .result-list {
+        font-size: 18px;   /* Reducir tamaño de la lista de resultados */
+    }
+
+    .button-draw {
+        padding: 8px 20px; /* Reducir padding del botón */
+    }
+
+    .button-reset {
+        font-size: 14px;   /* Reducir tamaño de la fuente del botón de reset */
+    }
+}
+
+/* Para pantallas menores a 400px */
+@media (max-width: 400px) {
+
+    .main-title {
+        font-size: 24px; /* Reducir aún más el título */
+    }
+
+    .section-title {
+        font-size: 18px; /* Reducir aún más los subtítulos */
+    }
+
+    .input-name,
+    .input-title {
+        font-size: 12px;  /* Reducir aún más el tamaño de la fuente */
+        padding: 6px;     /* Reducir más el padding */
+    }
+
+    .input-wrapper {
+        width: 100%;      /* Hacer input más grande en pantallas pequeñas */
+    }
+
+    .button-container {
+        width: 100%;      /* Hacer botones más grandes */
+    }
+
+    button {
+        width: 100%;      /* Botones más anchos */
+        padding: 10px;    /* Reducir padding del botón */
+    }
+
+    .result-list {
+        font-size: 16px;  /* Reducir el tamaño de la lista */
+    }
+
+    .button-draw {
+        padding: 6px 16px; /* Reducir padding del botón */
+    }
+
+    .button-reset {
+        font-size: 12px;   /* Reducir aún más el tamaño de la fuente del botón de reset */
+    }
+}
